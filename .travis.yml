@@ -14,6 +14,6 @@ notifications:
   email:
     recipients:
       - dudekzwp@gmail.com
-      - patrykdudka9@gmail.com
+      - marcinjozwiak0@gmail.com
     on_success: always # default: change
     on_failure: always # default: always
