@@ -9,11 +9,3 @@ before_script: pip install docker-compose
 
 script:
   - docker-compose run app sh -c "python manage.py test && flake8"
-
-notifications:
-  email:
-    recipients:
-      - dudekzwp@gmail.com
-      - marcinjozwiak0@gmail.com
-    on_success: always # default: change
-    on_failure: always # default: always
